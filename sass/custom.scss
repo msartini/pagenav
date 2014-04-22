@@ -1,0 +1,68 @@
+@import "screen";
+
+#page1 {  
+	.page1-bg { 
+		/*(@include background(url('../images/city1.jpg?1398175992'));*/
+		min-height: 800px;
+		width: 100%;
+		float: left;
+		.menu {
+			position: absolute;
+		}
+		.btnLeft {
+			margin: 400px 0 0 0;
+			float: left;
+		}
+		.btnRight {
+			margin: 400px 0 0 990px;
+			float: left;
+		}
+	}
+
+	// #btnPage1Sobre {
+	// 	position: absolute;
+	// 	top: 400px;
+	// }
+
+	// #btnPage1Mais {
+	// 	position: absolute;
+	// 	top: 400px;
+	// 	left: 1122px;
+	// } 
+}
+
+#page1b {  
+	.page1-bg { 
+		/*(@include background(url('../images/city1.jpg?1398175992'));*/
+		min-height: 800px;
+		width: 100%;
+		float: left;
+		.menu {
+			position: absolute;
+		}
+		.btnLeft {
+			margin: 400px 0 0 0;
+			float: left;
+		}
+		.btnRight {
+			margin: 400px 0 0 990px;
+			float: left;
+		}
+	}
+
+	// #btnPage1Sobre {
+	// 	position: absolute;
+	// 	top: 400px;
+	// }
+
+	// #btnPage1Mais {
+	// 	position: absolute;
+	// 	top: 400px;
+	// 	left: 1122px;
+	// } 
+}
+
+$corFonte: #FFF !important;
+a {
+	color: $corFonte;   
+}
