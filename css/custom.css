@@ -544,45 +544,55 @@ body.two-col #content {
 #page1 .page1-bg .menu {
   position: absolute;
 }
-/* line 12, ../sass/custom.scss */
-#page1 .page1-bg .btnLeft {
+/* line 11, ../sass/custom.scss */
+#page1 .page1-bg .menu .btnMoveUp {
   margin: 400px 0 0 0;
   float: left;
 }
 /* line 16, ../sass/custom.scss */
-#page1 .page1-bg .btnRight {
+#page1 .page1-bg .menu .btnLeft {
+  margin: 400px 0 0 0;
+  float: left;
+}
+/* line 20, ../sass/custom.scss */
+#page1 .page1-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
 
-/* line 35, ../sass/custom.scss */
+/* line 31, ../sass/custom.scss */
 #page1b .page1-bg {
   /*(@include background(url('../images/city1.jpg?1398175992'));*/
   min-height: 800px;
   width: 100%;
   float: left;
 }
-/* line 40, ../sass/custom.scss */
+/* line 36, ../sass/custom.scss */
 #page1b .page1-bg .menu {
   position: absolute;
 }
-/* line 43, ../sass/custom.scss */
-#page1b .page1-bg .btnLeft {
+/* line 38, ../sass/custom.scss */
+#page1b .page1-bg .menu .btnLeft {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 47, ../sass/custom.scss */
-#page1b .page1-bg .btnRight {
+/* line 42, ../sass/custom.scss */
+#page1b .page1-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
+/* line 46, ../sass/custom.scss */
+#page1b .page1-bg .menu .btnMoveUp {
+  top: 437px !important;
+  right: 4px !important;
+}
 
-/* line 65, ../sass/custom.scss */
+/* line 55, ../sass/custom.scss */
 #sobre {
   background: url("http://lorempixel.com/1600/1200/city/3/");
 }
 
-/* line 70, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 a {
   color: white !important;
 }

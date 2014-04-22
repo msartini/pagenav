@@ -7,28 +7,24 @@
 		width: 100%;
 		float: left;
 		.menu {
-			position: absolute;
+			position: absolute; 
+			.btnMoveUp { 
+				margin: 400px 0 0 0;
+				float: left;
+
+			}
+			.btnLeft {
+				margin: 400px 0 0 0;
+				float: left;
+			}
+			.btnRight {
+				margin: 400px 0 0 990px;
+				float: left;
+			}
 		}
-		.btnLeft {
-			margin: 400px 0 0 0;
-			float: left;
-		}
-		.btnRight {
-			margin: 400px 0 0 990px;
-			float: left;
-		}
+		 
 	}
 
-	// #btnPage1Sobre {
-	// 	position: absolute;
-	// 	top: 400px;
-	// }
-
-	// #btnPage1Mais {
-	// 	position: absolute;
-	// 	top: 400px;
-	// 	left: 1122px;
-	// } 
 }
 
 #page1b {  
@@ -38,28 +34,22 @@
 		width: 100%;
 		float: left;
 		.menu {
-			position: absolute;
-		}
-		.btnLeft {
-			margin: 400px 0 0 0;
-			float: left;
-		}
-		.btnRight {
-			margin: 400px 0 0 990px;
-			float: left;
+			position: absolute; 
+			.btnLeft {
+				margin: 400px 0 0 0;
+				float: left;
+			}
+			.btnRight {
+				margin: 400px 0 0 990px;
+				float: left;
+			}
+			.btnMoveUp {
+				top: 437px !important;
+				right: 4px !important;
+			}
 		}
 	}
 
-	// #btnPage1Sobre {
-	// 	position: absolute;
-	// 	top: 400px;
-	// }
-
-	// #btnPage1Mais {
-	// 	position: absolute;
-	// 	top: 400px;
-	// 	left: 1122px;
-	// } 
 }
 
 #sobre {

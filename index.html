@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" /> 
 		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		<script src="js/app.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
@@ -21,11 +22,17 @@
 			 <div class="span12 page1-bg">
 			 		<div class="menu">
 			 			<span class="btnLeft">
-			 				<a href="#sobre" class="btn btn-inverse" id="btnPage1Sobre"   data-transition="slide" data-direction="reverse">Sobre</a>
+			 				<a href="#sobre" class="btn btn-inverse callSobre" id="btnPage1Sobre" data-origem="#page1"   data-transition="slide" data-direction="reverse">Sobre</a>
 			 			</span>
 			 			<span class="btnRight">
 		 					<a href="#page1b" class="btn btn-inverse" id="btnPage1Mais"   data-transition="slide"  >Mais...</a>
 			 			</span>
+
+			 			<span class="btnMoveUp">
+		 					<a href="#page2b" class="btn btn-inverse" id="btnPage1Up"   data-transition="slideup"  >Sobe</a>
+			 			</span>
+
+
 			 		</div>
 			 		<img class="imgPage1" src="images/city1.jpg">
 			 </div>
@@ -47,7 +54,7 @@
 		 
 		</div>
 
-		 <div id="sobre" data-role="page">
+		 <div id="sobre" >
 
 			 <div class="container-fluid">
 			 	<div class="span4">
@@ -72,7 +79,7 @@
 				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				  <p>
-				  	<a href="#page1" class="btn btn-primary btn-large" id="btnPage1Mais"   data-transition="slide"   >Voltar</a>
+				  	<a href="#page1" class="btn btn-primary btn-large" id="btnSobreVoltar"   data-transition="slide"   >Voltar</a>
 				 
 				  </p>
 				</div>
@@ -96,15 +103,15 @@
 		</div> 
 
 
-		<div id="page3" data-role="page">
+		<div id="page2b" data-role="page">
 			<div data-role="header_">
-				<h1>PAGINA 3</h1>
+				<h1>Página 2b</h1>
 			</div>
 			<div data-role="content">
 				<div style="width: 200px;">
 
 					<p>
-						<a href="#page2" data-role="button"   data-transition="slidedown">Pagina anterior</a>
+						<a href="#page2" data-role="button"   data-transition="slidedown">Pagina 2b</a>
 					</p>
 
 
@@ -117,7 +124,7 @@
 
 
 
-
+ 
 
 
 	</body>
