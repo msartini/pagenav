@@ -577,7 +577,12 @@ body.two-col #content {
   float: left;
 }
 
-/* line 66, ../sass/custom.scss */
+/* line 65, ../sass/custom.scss */
+#sobre {
+  background: url("http://lorempixel.com/1600/1200/city/3/");
+}
+
+/* line 70, ../sass/custom.scss */
 a {
   color: white !important;
 }

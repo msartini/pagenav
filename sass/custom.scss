@@ -62,6 +62,10 @@
 	// } 
 }
 
+#sobre {
+	@include background(url('http://lorempixel.com/1600/1200/city/3/'));
+}
+
 $corFonte: #FFF !important;
 a {
 	color: $corFonte;   
