@@ -534,119 +534,138 @@ body.two-col #content {
 }
 
 /* line 4, ../sass/custom.scss */
+.page-header {
+  height: 67px;
+  background-color: yellow;
+  margin: 20px 0 20px 29px;
+  width: 1255px;
+}
+/* line 9, ../sass/custom.scss */
+.page-header img {
+  margin: 3px 0 0 162px;
+}
+
+/* line 15, ../sass/custom.scss */
 #page1 .page1-bg {
   /*(@include background(url('../images/city1.jpg?1398175992'));*/
   min-height: 800px;
   width: 100%;
   float: left;
 }
-/* line 9, ../sass/custom.scss */
+/* line 20, ../sass/custom.scss */
 #page1 .page1-bg .menu {
   position: absolute;
 }
-/* line 11, ../sass/custom.scss */
+/* line 22, ../sass/custom.scss */
 #page1 .page1-bg .menu .btnMoveUp {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 16, ../sass/custom.scss */
+/* line 27, ../sass/custom.scss */
 #page1 .page1-bg .menu .btnLeft {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 20, ../sass/custom.scss */
+/* line 31, ../sass/custom.scss */
 #page1 .page1-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
 
-/* line 31, ../sass/custom.scss */
+/* line 41, ../sass/custom.scss */
+.marginDefault {
+  margin: 0 10px 0 10px !important;
+}
+
+/* line 46, ../sass/custom.scss */
 #page1b .page1-bg {
   /*(@include background(url('../images/city1.jpg?1398175992'));*/
+  margin: 0;
   min-height: 800px;
   width: 100%;
   float: left;
+  margin-left: 0px !important;
 }
-/* line 36, ../sass/custom.scss */
+/* line 53, ../sass/custom.scss */
 #page1b .page1-bg .menu {
   position: absolute;
 }
-/* line 38, ../sass/custom.scss */
+/* line 55, ../sass/custom.scss */
 #page1b .page1-bg .menu .btnLeft {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 42, ../sass/custom.scss */
+/* line 59, ../sass/custom.scss */
 #page1b .page1-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
-/* line 46, ../sass/custom.scss */
+/* line 63, ../sass/custom.scss */
 #page1b .page1-bg .menu .btnMoveUp {
   top: 437px !important;
   right: 4px !important;
 }
 
-/* line 57, ../sass/custom.scss */
+/* line 74, ../sass/custom.scss */
 #page2 .page2-bg {
   /*(@include background(url('../images/city1.jpg?1398175992'));*/
   min-height: 800px;
   width: 100%;
   float: left;
 }
-/* line 62, ../sass/custom.scss */
+/* line 79, ../sass/custom.scss */
 #page2 .page2-bg .menu {
   position: absolute;
 }
-/* line 64, ../sass/custom.scss */
+/* line 81, ../sass/custom.scss */
 #page2 .page2-bg .menu .btnLeft {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 68, ../sass/custom.scss */
+/* line 85, ../sass/custom.scss */
 #page2 .page2-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
-/* line 72, ../sass/custom.scss */
+/* line 89, ../sass/custom.scss */
 #page2 .page2-bg .menu .btnMoveUp {
   top: 437px !important;
   right: 4px !important;
 }
 
-/* line 82, ../sass/custom.scss */
+/* line 99, ../sass/custom.scss */
 #page2b .page2-bg {
   /*(@include background(url('../images/city1.jpg?1398175992'));*/
   min-height: 800px;
   width: 100%;
   float: left;
 }
-/* line 87, ../sass/custom.scss */
+/* line 104, ../sass/custom.scss */
 #page2b .page2-bg .menu {
   position: absolute;
 }
-/* line 89, ../sass/custom.scss */
+/* line 106, ../sass/custom.scss */
 #page2b .page2-bg .menu .btnLeft {
   margin: 400px 0 0 0;
   float: left;
 }
-/* line 93, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
 #page2b .page2-bg .menu .btnRight {
   margin: 400px 0 0 990px;
   float: left;
 }
-/* line 97, ../sass/custom.scss */
+/* line 114, ../sass/custom.scss */
 #page2b .page2-bg .menu .btnMoveUp {
   top: 437px !important;
   right: 4px !important;
 }
 
-/* line 106, ../sass/custom.scss */
+/* line 123, ../sass/custom.scss */
 #sobre {
   background: url("http://lorempixel.com/1600/1200/city/3/");
 }
 
-/* line 111, ../sass/custom.scss */
+/* line 128, ../sass/custom.scss */
 a {
   color: white !important;
 }
