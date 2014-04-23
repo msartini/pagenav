@@ -551,7 +551,7 @@ body.two-col #content {
   float: left;
   width: auto;
   float: left;
-  margin: 25px 0 0 0;
+  margin: 25px 0 0 400px;
 }
 /* line 20, ../sass/custom.scss */
 .page-header .menuHeader ul {
