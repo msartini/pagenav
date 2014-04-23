@@ -52,6 +52,57 @@
 
 }
 
+
+#page2 {  
+	.page2-bg { 
+		/*(@include background(url('../images/city1.jpg?1398175992'));*/
+		min-height: 800px;
+		width: 100%;
+		float: left;
+		.menu {
+			position: absolute; 
+			.btnLeft {
+				margin: 400px 0 0 0;
+				float: left;
+			} 
+			.btnRight {
+				margin: 400px 0 0 $blueprint-container-size/4*3.3;
+				float: left;
+			}
+			.btnMoveUp {
+				top: 437px !important;
+				right: 4px !important;
+			}
+		}
+	}
+
+}
+
+#page2b {  
+	.page2-bg { 
+		/*(@include background(url('../images/city1.jpg?1398175992'));*/
+		min-height: 800px;
+		width: 100%;
+		float: left;
+		.menu {
+			position: absolute; 
+			.btnLeft {
+				margin: 400px 0 0 0;
+				float: left;
+			} 
+			.btnRight {
+				margin: 400px 0 0 $blueprint-container-size/4*3.3;
+				float: left;
+			}
+			.btnMoveUp {
+				top: 437px !important;
+				right: 4px !important;
+			}
+		}
+	}
+
+}
+
 #sobre {
 	@include background(url('http://lorempixel.com/1600/1200/city/3/'));
 }

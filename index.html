@@ -29,7 +29,7 @@
 			 			</span>
 
 			 			<span class="btnMoveUp">
-		 					<a href="#page2b" class="btn btn-inverse" id="btnPage1Up"   data-transition="slideup"  >Sobe</a>
+		 					<a href="#page2" class="btn btn-inverse" id="btnPage1Up" data-origem="#page1" data-directioninverse="slideup"   data-transition="slideup"  >Sobe</a>
 			 			</span>
 
 
@@ -79,7 +79,7 @@
 				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				  <p>
-				  	<a href="#page1" class="btn btn-primary btn-large" id="btnSobreVoltar"   data-transition="slide"   >Voltar</a>
+				  	<a href="#page1" class="btn btn-primary btn-large btnVoltar"    data-transition="slide"   >Voltar</a>
 				 
 				  </p>
 				</div>
@@ -93,33 +93,31 @@
 
 
 		<div id="page2" data-role="page">
-			<div data-role="header">
-				<h1>Reverse the transition now</h1>
+			
+			<div class="span12 page2-bg">
+			 		<div class="menu">
+			 		 
+			 			<span class="btnRight">
+		 					<a href="#page1" class="btn btn-inverse btnVoltar"     data-transition="slide"  data-direction="reverse" >Voltar</a>
+			 			</span>
+			 		</div>
+			 		<img class="imgPage1" src="images/city2.jpg">
 			</div>
-			<div data-role="content">
-			<p><a href="#" data-role="button" data-rel="back" 
-					data-direction="reverse">Reverse</a></p>
-			</div>
+
+
 		</div> 
 
 
 		<div id="page2b" data-role="page">
-			<div data-role="header_">
-				<h1>Página 2b</h1>
-			</div>
-			<div data-role="content">
-				<div style="width: 200px;">
-
-					<p>
-						<a href="#page2" data-role="button"   data-transition="slidedown">Pagina 2b</a>
-					</p>
-
-
-					<p>
-						<a href="#" data-role="button" data-rel="back" data-direction="reverse">Reverse</a>
-					</p>
-				</div>
-			</div>
+			  <div class="span12 page2-bg">
+			 		<div class="menu">
+			 		 
+			 			<span class="btnRight">
+		 					<a href="#page1" class="btn btn-inverse btnVoltar"     data-transition="slide"  data-direction="reverse" >Voltar</a>
+			 			</span>
+			 		</div>
+			 		<img class="imgPage1" src="images/city2.jpg">
+			 </div>
 		</div> 
 
 
