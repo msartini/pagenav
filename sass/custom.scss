@@ -1,3 +1,4 @@
+@import "fonts.css";
 @import "screen";
 
 
@@ -8,8 +9,25 @@
 	width: 1255px;
 	img {
 		margin: 3px 0 0 162px;
+		float: left;
+	}
+
+	.menuHeader {
+		float: left;
+		width: auto;
+		float: left;
+		margin: 25px 0 0 0;
+		ul {
+			list-style-type: none;
+			li {
+				float: left;
+				margin-left: 30px;
+			}
+		}
 	}
 }
+
+ 
 
 #page1 {  
 	.page1-bg { 
