@@ -70,8 +70,8 @@ $(document).ready(function(){
 		    valorDelta = evt.detail ? evt.detail*(-40) : evt.wheelDelta //check for detail first, because it is used by Opera and FF
 		   
 		    //console.log($(document).scrollTop().valueOf());
-		    clearTimeout(timeoutId);
 			if(   ( $(window).scrollTop() + $(window).height() > $(document).height() ) || $(document).scrollTop().valueOf() == 0   ) {
+		    	clearTimeout(timeoutId);
 			    timeoutId = setTimeout(callPage, 40);
 	    	}
 	    
