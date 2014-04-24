@@ -4,9 +4,13 @@ $(document).ready(function(){
 	var transaction = "";
 	var direction = "";
 
-	 
+	
+
+
+
 	$('a.callSobre').click( 'click', function() {
 		direction = '';
+		transaction = 'slide';
 		page = $(this).data("origem"); 
 	});
 
@@ -65,12 +69,13 @@ $(document).ready(function(){
 			pageup = $(this).data('pageup');
 
 
+			console.log ($(window).scrollTop() );
+			 
 		    var evt = window.event || e //equalize event object     
 		    evt = evt.originalEvent ? evt.originalEvent : evt; //convert to originalEvent if possible               
 		    valorDelta = evt.detail ? evt.detail*(-40) : evt.wheelDelta //check for detail first, because it is used by Opera and FF
-		   
-		    //console.log($(document).scrollTop().valueOf());
-			if(   ( $(window).scrollTop() + $(window).height() > $(document).height() ) || $(document).scrollTop().valueOf() == 0   ) {
+		 
+			if(   ( $(window).scrollTop() + $(window).height()  ) == $(document).height()  || $(window).scrollTop()==0 ) {
 		    	clearTimeout(timeoutId);
 			    timeoutId = setTimeout(callPage, 40);
 	    	}
