@@ -10,7 +10,7 @@
 	img {
 		margin: 3px 0 0 162px;
 		float: left;
-	}
+	}  
 
 	.menuHeader {
 		float: left;
@@ -139,7 +139,31 @@
 }
 
 #sobre {
-	@include background(url('http://lorempixel.com/1600/1200/city/3/'));
+	 
+	 .sobre-bg { 
+		/*(@include background(url('../images/city1.jpg?1398175992'));*/
+		min-height: 800px;
+		width: 100%;
+		float: left;
+		.conteudo {
+			//@include background(url('../images/page1-bg.jpg?1398175992'));
+			background: url('../images/page1-bg.jpg?1398175992');
+			background-repeat: no-repeat;
+			height: 800px;
+
+			.menu {
+			position: absolute; 
+			 
+				.btnRight {
+					margin: 400px 0 0 $blueprint-container-size/4*3.3;
+					float: left;
+					color: red;
+				}
+			 
+			}
+		}
+		
+	}
 }
 
 $corFonte: #FFF !important;
