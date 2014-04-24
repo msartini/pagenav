@@ -68,10 +68,11 @@ $(document).ready(function(){
 		    var evt = window.event || e //equalize event object     
 		    evt = evt.originalEvent ? evt.originalEvent : evt; //convert to originalEvent if possible               
 		    valorDelta = evt.detail ? evt.detail*(-40) : evt.wheelDelta //check for detail first, because it is used by Opera and FF
-		   // console.log($(document).scrollTop().valueOf());
+		   
+		    
+			if(   ( $(window).scrollTop() + $(window).height() > $(document).height() ) || $(document).scrollTop().valueOf() <= 0   ) {
 		    clearTimeout(timeoutId);
-			if(   ( $(window).scrollTop() + $(window).height() == $(document).height() ) || $(document).scrollTop().valueOf() <= 0   ) {
-			    timeoutId = setTimeout(callPage, 30);
+			    timeoutId = setTimeout(callPage, 70);
 	    	}
 	    
 	});
