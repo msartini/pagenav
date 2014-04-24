@@ -1,12 +1,17 @@
 @import "fonts.css";
 @import "screen";
 
+.marginDefault {
+	margin: 0 10px 0 10px !important; 
+}
+
 
 .page-header {
 	height: 67px;
-	background-color: yellow;
+	//background-color: yellow;
 	margin: 20px 0 20px 29px;
-	width: 1255px;
+	width: 1255px; 
+	font-family: 'theano_didotregular';
 	img {
 		margin: 3px 0 0 162px;
 		float: left;
@@ -15,13 +20,14 @@
 	.menuHeader {
 		float: left;
 		width: auto;
-		float: left;
+		float: left; 
 		margin: 25px 0 0 400px;
 		ul {
 			list-style-type: none;
+			padding-left: 10px;
 			li {
 				float: left;
-				margin-left: 30px;
+				margin: 0 46px 0 0;
 			}
 		}
 	}
@@ -34,7 +40,8 @@
 		/*(@include background(url('../images/city1.jpg?1398175992'));*/
 		min-height: 800px;
 		width: 100%;
-		float: left;
+		float: left; 
+		@extend .marginDefault;
 		.menu {
 			position: absolute; 
 			.btnMoveUp { 
@@ -56,9 +63,7 @@
 
 }
 
-.marginDefault {
-	margin: 0 10px 0 10px !important; 
-}
+
 
 #page1b {  
 	.page1-bg { 
@@ -67,7 +72,7 @@
 		min-height: 800px;
 		width: 100%;
 		float: left;
-		margin-left: 0px !important;
+		@extend .marginDefault;
 		.menu {
 			position: absolute; 
 			.btnLeft {
@@ -140,24 +145,31 @@
 
 #sobre {
 	 
-	 .sobre-bg { 
+	 .sobre-bg {  
 		/*(@include background(url('../images/city1.jpg?1398175992'));*/
 		min-height: 800px;
 		width: 100%;
 		float: left;
+		@extend .marginDefault;
 		.conteudo {
 			//@include background(url('../images/page1-bg.jpg?1398175992'));
-			background: url('../images/page1-bg.jpg?1398175992');
+			background: url('../images/bg/about-sp.jpg?1398175992');
 			background-repeat: no-repeat;
 			height: 800px;
 
 			.menu {
-			position: absolute; 
 			 
 				.btnRight {
-					margin: 400px 0 0 $blueprint-container-size/4*3.3;
+					margin: 307px 0 0 1138px;
+					//margin: 400px 0 0 $blueprint-container-size/4*3.3;
 					float: left;
-					color: red;
+					//color: red;
+					a {
+						background: transparent;
+						border: none;
+						width: 100px;
+						height: 30px; 
+					}
 				}
 			 
 			}
